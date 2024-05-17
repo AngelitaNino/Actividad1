@@ -1,0 +1,12 @@
+footer {
+    background-color: darksalmon;
+    color: darkslategrey;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer__text {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}

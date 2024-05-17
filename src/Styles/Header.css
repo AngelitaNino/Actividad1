@@ -1,0 +1,30 @@
+header {
+    background-color: darksalmon;
+    color: darkslategrey;
+    height: 50px;
+    border-radius: 0 0 2px 2px;
+}
+
+.header__text {
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.navbar-container {
+    display:flex;
+    background-color: #f4f8f8;
+    justify-content: left;
+    text-align: center;
+    width: 1500px;
+}
+
+.navbar-wrapper {
+    display:center;
+    margin-left: 50px;
+    display:center;
+    background-color: #f4f8f8;
+    width:auto;
+    justify-content: center;
+    width:90%;
+}

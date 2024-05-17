@@ -1,0 +1,23 @@
+.navbar-container {
+    display:flex;
+    background-color: darksalmon;
+    justify-content: left;
+    text-align: center;
+    width: 1200px;
+}
+
+.navbar-wrapper {
+    display:center;
+    margin-left: 240px;
+    display:center;
+    background-color: darksalmon;
+    width:auto;
+    justify-content: center;
+    width:70%;
+}
+.header__text {
+    Color: #2b7079;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+}

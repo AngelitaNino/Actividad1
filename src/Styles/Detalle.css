@@ -1,0 +1,139 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex-basis: calc(22% - 15px);
+    margin: 13px;
+    box-sizing: border-box;
+}
+
+.card-img-top {
+    width: 10%;
+    height: min-content;
+}
+container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clear:both;
+
+
+}
+
+.wrapper {
+    width:auto;
+    background-color: #eaeaeb;
+    margin:100px auto;
+    align-items: center;
+}
+
+.Card-header {
+    background-color: #eaeaeb;
+    height: auto;
+    width: 1205px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+}
+
+.producto {
+    display: flex;
+    width: 400px;
+    border: 1px solid #a8bbdd;
+    border-radius: 4px;
+    padding: 3px;
+    margin-bottom: 10px;
+    flex: 1 1 40%;
+    margin: 10px;
+
+
+    float:right;
+    margin-left:5px;
+}
+
+.producto-contenido {
+    flex: 1;
+    display: flex;
+    height: 200px;
+    width: 450px;
+    border: 1px solid #fcfdfd;
+    border-radius: 4px;
+    padding: 3px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 17px;
+    float: left;
+    position: relative;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+}
+
+.plus-imagen{
+    width: 50px;
+    height: 50px;
+    float: center;
+}
+
+
+.producto-imagen {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-right: 1px;
+
+}
+
+
+.producto-titulo {
+    margin: 0;
+    color: #2b7079;
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.producto-descripcion-short {
+    margin: 0;
+    margin-bottom: 3px;
+    color: #2b7079;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.producto-descripcion-large {
+    margin: 0;
+    margin-bottom: 3px;
+    color: #2b7079;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.producto-precio {
+    margin: 0;
+    font-weight: bold;
+    color: #c4582d;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-badge:after{
+    content:attr(value);
+    font-size:12px;
+    background: red;
+    border-radius:50%;
+    padding:3px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+
